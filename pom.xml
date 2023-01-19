@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>webapp nexus release repo</name>
-	      <url>http://172.31.74.12:8081/repository/webapp-release/</url>
+	      <name>free nexus release repo</name>
+	      <url>http://44.211.168.53:8081/repository/free-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>webapp nexus snapshot repo</name>
-	      <url>http://172.31.74.12:8081/repository/webapp-snapshot/</url>
+	      <name>free nexus snapshot repo</name>
+	      <url>http://44.211.168.53:8081/repository/free-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
