@@ -1,0 +1,11 @@
+node(""){
+  stage("Initializing.."){
+    sh "echo Starting project"
+  }
+  stage("Git clone"){
+    git "https://github.com/weonlife/maven-web-app.git"
+  }
+  stage("Build"){
+    sh "npm install"
+  }
+}
